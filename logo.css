@@ -1,0 +1,97 @@
+.logo_1 {
+    top: 5px;
+    left: 3%;
+    width: 180px;
+    position: absolute;
+}
+
+.section-map {
+    align-items: center;
+    text-align: center;
+}
+.map1 {
+    border-radius: 10px 100px / 120px;
+}
+.icon img {
+    border-radius: 33px;
+}
+
+
+/* SIDE BUTTON */
+#mySidenav a {
+    position: absolute;
+    left: -70px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 130px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    z-index: 114;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #projects {
+    position: sticky;
+    top: 120px;
+    background-color: #f44336;
+  }
+
+  .sidenav a img {
+    width: 40px;
+  }
+
+
+
+
+
+
+/* cameraLAST */
+
+  .centerCamera {
+    display: flex;
+    justify-content: center;
+  }
+
+/* ADD NEW 2024 */
+.inputForm {
+padding-top: 10px;
+min-height: 70px;
+}
+
+  
+/* MSG STATUS */
+
+
+.msg__status {
+  display: none;
+  position: absolute;
+  z-index: 1000000210;
+  top: 60px;
+  left: 20vw;
+  width: 60vw;
+  height: 100px;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #000000;
+  padding-top: 20px;
+}
+.success {
+  display: block;
+  background: green;
+}
+.error {
+  display: block;
+  background: rgba(175, 6, 6, 0.678);
+}
+@media screen and (min-width: 991px) {
+  .msg__status {
+    font-size: 40px;
+  }
+}
